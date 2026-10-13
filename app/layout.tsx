@@ -32,8 +32,12 @@ export const metadata: Metadata = {
     siteName: 'Pranavi Infotech',
   },
   icons: {
-    icon: '/logo/pranvi-new-logo-removebg-preview.png',
-    apple: '/logo/pranvi-new-logo-removebg-preview.png',
+    icon: [
+      { url: '/logo/favicon.jpeg' },
+      { url: '/logo/favicon.jpeg', type: 'image/jpeg' },
+    ],
+    shortcut: '/logo/favicon.jpeg',
+    apple: '/logo/favicon.jpeg',
   },
 }
 
