@@ -1161,7 +1161,7 @@ export default function Home() {
                     marginBottom: '24px',
                   }}
                 >
-                  Founded in 2012 in Pune, Pranavi Infotech empowers enterprises, high-growth startups, and government projects with mission-critical custom software, bespoke AI systems, and high-ROI digital marketing solutions.
+                  Founded in 2012 in Mumbai, Pranavi Infotech empowers enterprises, high-growth startups, and government projects with mission-critical custom software, bespoke AI systems, and high-ROI digital marketing solutions.
                 </p>
               </RevealOnScroll>
 
@@ -1306,7 +1306,7 @@ export default function Home() {
                   maxWidth: '640px',
                 }}
               >
-                Established in 2012 in Pune, India, Pranavi Infotech engineers mission-critical software, bespoke AI systems, and high-ROI SEO marketing campaigns that deliver measurable performance, bulletproof security, and enduring client trust.
+                Established in 2012 in Mumbai, India, Pranavi Infotech engineers mission-critical software, bespoke AI systems, and high-ROI SEO marketing campaigns that deliver measurable performance, bulletproof security, and enduring client trust.
               </p>
             </div>
           </RevealOnScroll>

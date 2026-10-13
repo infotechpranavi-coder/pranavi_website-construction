@@ -410,7 +410,7 @@ export default function Footer() {
                     Office Location
                   </div>
                   <div style={{ color: '#E2E8F0', fontSize: '13.5px', lineHeight: '1.5', fontWeight: 500 }}>
-                    Pune Technology Corridor, Hinjawadi Phase 1, Pune, Maharashtra 411057, India
+                    Mumbai, Maharashtra, India
                   </div>
                 </div>
               </div>

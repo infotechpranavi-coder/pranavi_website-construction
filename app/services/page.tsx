@@ -364,7 +364,7 @@ export default function ServicesPage() {
             </RevealOnScroll>
             <RevealOnScroll direction="up" delay={0.25}>
               <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: '16px', lineHeight: '1.7', marginBottom: '36px', maxWidth: '680px' }}>
-                Established in 2012 in Pune, India — bespoke custom software, high-security government portals, mobile apps, custom AI pipelines, and high-ROI technical SEO marketing for 75+ clients worldwide.
+                Established in 2012 in Mumbai, India — bespoke custom software, high-security government portals, mobile apps, custom AI pipelines, and high-ROI technical SEO marketing for 75+ clients worldwide.
               </p>
             </RevealOnScroll>
             <RevealOnScroll direction="up" delay={0.35}>

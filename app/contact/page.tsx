@@ -96,7 +96,7 @@ function ContactFormInner() {
             margin: '0 auto 24px',
           }}
         >
-          Thank you, <strong>{form.name}</strong>. Our senior software team in Pune will review your project requirements and provide a preliminary scope within 24 hours.
+          Thank you, <strong>{form.name}</strong>. Our senior software team in Mumbai will review your project requirements and provide a preliminary scope within 24 hours.
         </p>
 
         <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -312,7 +312,7 @@ export default function ContactPage() {
   const faqs = [
     {
       q: 'How fast can our team begin discovery and planning?',
-      a: 'We respond to all technical inquiries within 24 hours. An initial scoping call with a senior engineering lead in Pune can typically be scheduled within 2 business days.',
+      a: 'We respond to all technical inquiries within 24 hours. An initial scoping call with a senior engineering lead in Mumbai can typically be scheduled within 2 business days.',
     },
     {
       q: 'Do you execute non-disclosure agreements (NDAs)?',
@@ -427,7 +427,7 @@ export default function ContactPage() {
             >
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#F26522', fontWeight: 800, fontSize: '12px', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '8px', fontFamily: 'var(--font-mono)' }}>
                 <Sparkles size={14} />
-                <span>PUNE HEADQUARTERS</span>
+                <span>MUMBAI HEADQUARTERS</span>
               </div>
               <div style={{ fontSize: '18px', fontWeight: 800, marginBottom: '6px', fontFamily: 'var(--font-display)' }}>
                 Direct Engineering Access
@@ -490,7 +490,7 @@ export default function ContactPage() {
               Reach Us Directly Anytime
             </h2>
             <p className="section-subtitle" style={{ margin: '0 auto' }}>
-              Connect with our Pune headquarters via phone, direct WhatsApp chat, or official enterprise email.
+              Connect with our Mumbai headquarters via phone, direct WhatsApp chat, or official enterprise email.
             </p>
           </div>
 
@@ -652,10 +652,10 @@ export default function ContactPage() {
                   ENGINEERING CENTER
                 </div>
                 <h3 style={{ fontSize: '18px', fontWeight: 700, color: '#0F172A', marginBottom: '8px' }}>
-                  Pune, India
+                  Mumbai, India
                 </h3>
                 <p style={{ color: '#64748B', fontSize: '13px', lineHeight: '1.5', margin: 0 }}>
-                  Pune Technology Corridor, Hinjawadi Phase 1, Pune, Maharashtra 411057, India
+                  Mumbai, Maharashtra, India
                 </p>
               </div>
               <div style={{ fontSize: '12px', color: '#94A3B8', marginTop: '16px', fontWeight: 600 }}>

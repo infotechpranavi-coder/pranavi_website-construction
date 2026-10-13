@@ -112,7 +112,7 @@ export default function AboutPage() {
           </RevealOnScroll>
           <RevealOnScroll direction="up" delay={0.25}>
             <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: '16px', lineHeight: '1.7', marginBottom: '36px', maxWidth: '680px' }}>
-              Established in Pune, India — Pranavi Infotech has partnered with enterprises, fast-growing startups, and government bodies to deliver mission-critical software, bespoke AI systems, and high-ROI digital marketing.
+              Established in Mumbai, India — Pranavi Infotech has partnered with enterprises, fast-growing startups, and government bodies to deliver mission-critical software, bespoke AI systems, and high-ROI digital marketing.
             </p>
           </RevealOnScroll>
           <RevealOnScroll direction="up" delay={0.35}>
@@ -255,7 +255,7 @@ export default function AboutPage() {
                       HEADQUARTERS
                     </div>
                     <div style={{ fontSize: '16px', fontWeight: 750, color: '#FFFFFF', fontFamily: 'var(--font-display)', lineHeight: 1.35 }}>
-                      Pune Technology Hub,<br />Maharashtra, India
+                      Mumbai Technology Center,<br />Maharashtra, India
                     </div>
                   </div>
                 </div>
@@ -276,7 +276,7 @@ export default function AboutPage() {
 
               <RevealOnScroll direction="up" delay={0.2}>
                 <p style={{ color: '#4A5E78', fontSize: '15px', lineHeight: '1.7', marginBottom: '16px' }}>
-                  Established in <strong>2012</strong> in Pune, India, Pranavi Infotech has partnered with over <strong>75+ happy clients</strong>—spanning Fortune-caliber enterprises, fast-growing startups, and mission-critical government projects. We build scalable web platforms, native mobile applications, compliant cloud infrastructure, and custom AI systems.
+                  Established in <strong>2012</strong> in Mumbai, India, Pranavi Infotech has partnered with over <strong>75+ happy clients</strong>—spanning Fortune-caliber enterprises, fast-growing startups, and mission-critical government projects. We build scalable web platforms, native mobile applications, compliant cloud infrastructure, and custom AI systems.
                 </p>
                 <p style={{ color: '#4A5E78', fontSize: '15px', lineHeight: '1.7', marginBottom: '28px' }}>
                   Our integrated capabilities combine disciplined full-stack software development with data-driven digital marketing—including technical SEO, Google Ads, and brand positioning.

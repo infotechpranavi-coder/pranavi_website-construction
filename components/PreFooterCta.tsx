@@ -85,7 +85,7 @@ export default function PreFooterCta() {
             margin: 0,
           }}
         >
-          Connect with our team in Pune at{' '}
+          Connect with our team in Mumbai at{' '}
           <a
             href="mailto:info@pranaviinfotech.com"
             style={{

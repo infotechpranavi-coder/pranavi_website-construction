@@ -9,11 +9,11 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Pranavi Infotech | Enterprise Software, AI Systems & SEO Marketing (Est. 2012)',
   description:
-    'Established in 2012, Pranavi Infotech is a premier software engineering & digital marketing firm in Pune, India. Trusted by 75+ happy clients across enterprises and government projects for custom software, mobile apps, AI pipelines, and technical SEO growth.',
+    'Established in 2012, Pranavi Infotech is a premier software engineering & digital marketing firm in Mumbai, India. Trusted by 75+ happy clients across enterprises and government projects for custom software, mobile apps, AI pipelines, and technical SEO growth.',
   keywords: [
     'Pranavi Infotech',
-    'Established 2012 Software Company Pune',
-    'Custom Software Development Pune',
+    'Established 2012 Software Company Mumbai',
+    'Custom Software Development Mumbai',
     'Government Projects IT Solutions',
     'E-Governance Portal Development',
     'Enterprise AI Systems & LLM Integration',
