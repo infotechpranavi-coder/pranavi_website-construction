@@ -303,16 +303,6 @@ const services: ServiceItem[] = [
     icon: Video,
   },
   {
-    id: 'orm',
-    title: 'ORM (Reputation Management)',
-    category: 'marketing',
-    categoryLabel: 'DIGITAL MARKETING',
-    desc: 'Proactive brand sentiment monitoring, executive leadership positioning, positive review acceleration pipelines, and PR crisis mitigation strategies.',
-    link: '/services#orm',
-    chips: ['Brand Sentiment Defense', 'Executive PR', 'Review Strategy'],
-    icon: ShieldCheck,
-  },
-  {
     id: 'google-ads',
     title: 'Google Ads & PPC',
     category: 'marketing',

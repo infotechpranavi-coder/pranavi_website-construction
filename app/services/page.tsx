@@ -17,7 +17,6 @@ import {
   Share2,
   Lightbulb,
   Video,
-  ShieldCheck,
   Target,
   ChevronLeft,
   ChevronRight,
@@ -197,23 +196,6 @@ const serviceDetails = [
   },
   {
     num: '11',
-    id: 'orm',
-    icon: ShieldCheck,
-    title: 'Online Reputation Management (ORM)',
-    kicker: 'SENTIMENT DEFENSE & EXECUTIVE PR',
-    desc: 'Protect and elevate corporate brand equity through 24/7 sentiment tracking, proactive crisis mitigation, positive review generation, and executive thought leadership.',
-    capabilities: [
-      'Brand Sentiment & Search Engine SERP Defense',
-      'Executive Leadership LinkedIn & PR Thought Leadership',
-      'Customer Review Acceleration & Rating Optimization',
-      'Rapid Incident Response & Crisis Communications',
-      'Wikipedia Page Creation & Google Knowledge Panel Curation',
-    ],
-    stack: ['Brand24', 'Meltwater', 'Mention', 'Trustpilot', 'Google My Business'],
-    image: '/project_vaultpay.png',
-  },
-  {
-    num: '12',
     id: 'google-ads',
     icon: Target,
     title: 'Google Ads & Performance Marketing',
@@ -277,7 +259,7 @@ const faqs = [
 ]
 
 const techServices = serviceDetails.slice(0, 6)
-const marketingServices = serviceDetails.slice(6, 12)
+const marketingServices = serviceDetails.slice(6)
 
 export default function ServicesPage() {
   const [activeTechTab, setActiveTechTab] = useState<keyof typeof techCategories>('Frontend')
@@ -401,7 +383,7 @@ export default function ServicesPage() {
             {[
               { end: 12, suffix: '+', label: 'Years Experience', dur: 2600, delay: 0 },
               { end: 75, suffix: '+', label: 'Happy Clients', dur: 2800, delay: 150 },
-              { end: 12, suffix: '', label: 'Services Offered', dur: 2200, delay: 250 },
+              { end: 11, suffix: '', label: 'Services Offered', dur: 2200, delay: 250 },
               { end: 99, suffix: '%', label: 'Delivery Success', dur: 3000, delay: 350 },
             ].map((s, i) => (
               <RevealOnScroll key={i} direction="none" delay={0.05 * i}>

@@ -445,7 +445,7 @@ export default function Footer() {
                       marginBottom: '2px',
                     }}
                   >
-                    Direct Contact Numbers
+                    Direct Phone &amp; WhatsApp
                   </div>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
                     <a
@@ -460,19 +460,6 @@ export default function Footer() {
                       className="footer-contact-link"
                     >
                       +91 96534 18049 <span style={{ fontSize: '12px', color: '#22C55E', fontWeight: 600 }}>(WhatsApp)</span>
-                    </a>
-                    <a
-                      href="tel:+919822012345"
-                      style={{
-                        color: '#CBD5E1',
-                        fontSize: '13.5px',
-                        fontWeight: 600,
-                        textDecoration: 'none',
-                        transition: 'color 0.2s ease',
-                      }}
-                      className="footer-contact-link"
-                    >
-                      +91 98220 12345 <span style={{ fontSize: '12px', color: '#94A3B8' }}>(Desk)</span>
                     </a>
                   </div>
                 </div>
@@ -508,7 +495,7 @@ export default function Footer() {
                       marginBottom: '2px',
                     }}
                   >
-                    Official Email Desks
+                    Official Email
                   </div>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
                     <a
@@ -523,19 +510,6 @@ export default function Footer() {
                       className="footer-contact-link"
                     >
                       info@pranaviinfotech.com
-                    </a>
-                    <a
-                      href="mailto:contact@pranaviinfotech.com"
-                      style={{
-                        color: '#CBD5E1',
-                        fontSize: '13.5px',
-                        fontWeight: 500,
-                        textDecoration: 'none',
-                        transition: 'color 0.2s ease',
-                      }}
-                      className="footer-contact-link"
-                    >
-                      contact@pranaviinfotech.com
                     </a>
                   </div>
                 </div>

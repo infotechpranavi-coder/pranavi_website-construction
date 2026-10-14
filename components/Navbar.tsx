@@ -22,7 +22,6 @@ import {
   Target,
   Palette,
   Video,
-  ShieldCheck,
 } from 'lucide-react'
 
 // Categorized Services: Technologies & Digital Marketing under Services Tab
@@ -106,12 +105,6 @@ const serviceCategories = [
         href: '/services#video-production',
         icon: Video,
         hint: 'Brand films & 3D animations',
-      },
-      {
-        name: 'Online Reputation Management (ORM)',
-        href: '/services#orm',
-        icon: ShieldCheck,
-        hint: 'Brand sentiment & executive PR',
       },
     ],
   },
