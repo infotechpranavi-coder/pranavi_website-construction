@@ -17,6 +17,7 @@ import {
   Sparkles,
   ChevronDown,
 } from 'lucide-react'
+import { Facebook, Instagram } from '@/components/BrandIcons'
 
 function ContactFormInner() {
   const searchParams = useSearchParams()
@@ -661,6 +662,80 @@ export default function ContactPage() {
               <div style={{ fontSize: '12px', color: '#94A3B8', marginTop: '16px', fontWeight: 600 }}>
                 Mon–Sat • 9:30 AM – 7:00 PM IST
               </div>
+            </div>
+          </div>
+
+          {/* Social Media Channels Strip */}
+          <div
+            style={{
+              marginTop: '32px',
+              padding: '24px 32px',
+              borderRadius: '12px',
+              background: '#FFFFFF',
+              border: '1px solid #E2E8F0',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: '16px',
+              boxShadow: '0 4px 16px rgba(10, 33, 61, 0.04)',
+            }}
+          >
+            <div>
+              <div style={{ fontSize: '11px', fontWeight: 800, color: '#F26522', letterSpacing: '0.08em', textTransform: 'uppercase', fontFamily: 'var(--font-mono)', marginBottom: '4px' }}>
+                SOCIAL PRESENCE
+              </div>
+              <div style={{ fontSize: '16px', fontWeight: 700, color: '#0F172A', fontFamily: 'var(--font-display)' }}>
+                Follow &amp; Connect With Us On Official Channels
+              </div>
+            </div>
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+              <a
+                href="https://www.facebook.com/pranviinfotech"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '10px 20px',
+                  borderRadius: '8px',
+                  background: '#1877F2',
+                  color: '#FFFFFF',
+                  fontSize: '13.5px',
+                  fontWeight: 650,
+                  textDecoration: 'none',
+                  transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                }}
+              >
+                <Facebook size={17} />
+                <span>Facebook</span>
+              </a>
+
+              <a
+                href="https://www.instagram.com/pranaviinfotech21"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '10px 20px',
+                  borderRadius: '8px',
+                  background: 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)',
+                  color: '#FFFFFF',
+                  fontSize: '13.5px',
+                  fontWeight: 650,
+                  textDecoration: 'none',
+                  transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                }}
+              >
+                <Instagram size={17} />
+                <span>Instagram</span>
+              </a>
             </div>
           </div>
         </div>
